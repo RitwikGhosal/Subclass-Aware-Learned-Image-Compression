@@ -51,7 +51,7 @@ Output: Reconstructed patch (ℝ[B, 3, 32, 32]), μ, logσ², ẑ
 Just the encoder is used for the patches along with the quantization.
 
 
------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------- 
 
 ## Latent Subclass Assignment Network (SimCLR-based)
 To group similar latents into semantic subclasses, the unquantized latent tensors are projected into a lower-dimensional space using a LatentSimCLRProjection network — a shallow ConvNet followed by a projection MLP.
