@@ -1,4 +1,4 @@
-# Subclass-Aware Image Compression
+# Subclass-Aware Learned Image Compression
 
 ## Overview
 
