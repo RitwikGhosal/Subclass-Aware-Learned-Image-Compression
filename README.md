@@ -151,7 +151,7 @@ Input: 128×128×3 image
     └── Conv2d: 64 → 3             → Output: 128×128×3
     └── Sigmoid                    → Final Enhanced Image
 ```
-![LatentSimCLRProjection Diagram_for a_single_class](assets/enhanced.png)
+![Enhanced_output](assets/enhanced.png)
 
 ---------------------------------------------------------------------------
 
