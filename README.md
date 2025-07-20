@@ -84,6 +84,9 @@ Input: z ∈ ℝ[B, 64, 4, 4] or [B, 64, H, W]
 Output: ℓ2-normalized projection vector (for contrastive loss)
 ```
 
+![LatentSimCLRProjection Diagram](assets/subclasses.png)
+![LatentSimCLRProjection Diagram_for a_single_class](assets/attention_1.png)
+
 ----------------------------------------------------------------------------------------
 
 
@@ -148,7 +151,7 @@ Input: 128×128×3 image
     └── Conv2d: 64 → 3             → Output: 128×128×3
     └── Sigmoid                    → Final Enhanced Image
 ```
-
+![LatentSimCLRProjection Diagram_for a_single_class](assets/enhanced.png)
 
 ---------------------------------------------------------------------------
 
